@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>بوابة الألعاب والأنمي</title>
+<meta name="340f93bb7925e02b5a72fdc657c60d243c7bb7e5" content="340f93bb7925e02b5a72fdc657c60d243c7bb7e5" />
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Cairo', sans-serif;
+  background: linear-gradient(135deg, #0a0a0a, #111);
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: rgba(0,0,0,0.8);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #00f7ff;
+}
+
+/* Hero */
+.hero {
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  opacity: 0.7;
+}
+
+/* Grid */
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 25px;
+  padding: 30px;
+}
+
+/* Cards */
+.card {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.4s;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  filter: brightness(0.6);
+  transition: 0.4s;
+}
+
+.card:hover img {
+  filter: brightness(0.9);
+}
+
+.card:hover {
+  transform: translateY(-8px) scale(1.05);
+}
+
+.card-content {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+
+.card h2 {
+  margin: 0;
+}
+
+.card p {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+/* Glow effect */
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 2px solid transparent;
+  border-radius: 15px;
+  transition: 0.4s;
+}
+
+.card:hover::before {
+  border-color: #00f7ff;
+  box-shadow: 0 0 20px #00f7ff;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  opacity: 0.5;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="navbar">
+  <div class="logo">🔥 My Gaming Hub</div>
+</div>
+
+<div class="hero">
+  <h1>بوابة الألعاب والأنمي</h1>
+  <p>أفضل محتوى للألعاب والأنمي في مكان واحد</p>
+</div>
+
+<div class="container">
+
+<a class="card" href="https://b434mear.github.io">
+  <img src="https://images.unsplash.com/photo-1580128637393-0a0d0c5a2f5b">
+  <div class="card-content">
+    <h2>🎬 كينجدوم</h2>
+    <p>تحليلات أنمي</p>
+  </div>
+</a>
+
+<a class="card" href="https://pug123853.github.io">
+  <img src="https://images.unsplash.com/photo-1606813907291-d86efa9b94db">
+  <div class="card-content">
+    <h2>🎮 PUBG</h2>
+    <p>احتراف ببجي</p>
+  </div>
+</a>
+
+<a class="card" href="https://pg235.github.io">
+  <img src="https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf">
+  <div class="card-content">
+    <h2>🔥 Free Fire</h2>
+    <p>أفضل الإعدادات</p>
+  </div>
+</a>
+
+<a class="card" href="https://anamhjt-cmyk.github.io/">
+  <img src="https://images.unsplash.com/photo-1608889175123-1b0c0e8b9c2f">
+  <div class="card-content">
+    <h2>⚔️ Naruto</h2>
+    <p>ستورم 4</p>
+  </div>
+</a>
+
+<a class="card" href="https://iphone17-max.github.io/">
+  <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9">
+  <div class="card-content">
+    <h2>📱 iPhone 17</h2>
+    <p>مواصفات وتسريبات</p>
+  </div>
+</a>
+
+</div>
+
+<div class="footer">
+© 2026 جميع الحقوق محفوظة
+</div>
+
+</body>
+  </html>
